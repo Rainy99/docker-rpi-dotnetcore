@@ -11,4 +11,4 @@ RUN mkdir -p /opt/dotnet
 # Extract to the installation folder
 RUN tar -axf dotnet-runtime-latest-linux-arm.tar.gz -C /opt/dotnet
 # Create link
-RUN ln -s /opt/dotnet/dotnet /usr/local/bin
+RUN ln -s /opt/dotnet/dotnet /usr/local/bin/dotnet
